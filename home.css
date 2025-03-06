@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: black;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    gap: 5px;
+}
+
+.span_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.52px;
+    letter-spacing: 0%;
+    color: #AAAAAA;
+}
+
+.ul_btn {
+    border: none;
+    padding: 5px 16px;
+}
+
+.main_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 27px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.item_p1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.58px;
+    letter-spacing: 0.2px;
+    color: #EF400F;
+    margin: 20px auto 5px auto;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #0E0D5D;
+    margin-top: 20px;
+}
+
+.user-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    margin-top: 30px;
+    padding: 17px 40px;
+    gap: 81px;
+    border-radius: 15px;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+#coins {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+#hp {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+#group {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: 10px;
+}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+    background-position: top;
+
+    background-size: 1220px 1100px;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    border: 2px solid rgb(222, 219, 219);
+    background-color: rgb(255, 255, 255);
+    padding: 45px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+[alt="global"] {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.nav_btn span {
+    color: rgb(66, 66, 66);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.mini_container {
+    width: 650px;
+    background: rgb(255, 255, 255);
+    padding: 70px 60px;
+    margin: 45px auto;
+    border-radius: 50px;
+    border: 1px solid rgb(222, 219, 219);
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.btn span {
+    color: rgb(240, 64, 15);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.space {
+    text-align: center;
+    margin-top: 140px;
+    color: rgb(14, 13, 93);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.div2 {
+    width: 500px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+}
+
+.div2_btn {
+    border-radius: 15px;
+    padding: 15px 45px;
+    border: none;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.div2_btn2 {
+    color: rgb(117, 117, 117);  
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    margin-right: 50px;
+}
+
+.inpu1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding: 20px 64px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    margin: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 600px;
+    margin-left: -38px;
+
+}
+
+.input2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding: 20px 64px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+}
+
+.form img {
+    width: 20px;
+    height: 20px;
+}
+
+.span {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.64);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.btn2 {
+    border-radius: 20px;
+    background: rgb(255, 55, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 17px 29px;
+    border: none;
+    margin: 25px;
+    margin-left: 300px;
+}
+
+.btn2 {
+    background: rgb(241, 89, 89);
+}
+
+form span {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+form span {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mars space</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <img src="./images/logo (2).svg" alt="logo">
+
+                <button class="nav_btn">
+                    <img src="./images/global.png" alt="global">
+                    <span>O'zb</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="mini_container">
+            <div class="div1">
+                <img src="./images/logo (2).svg" alt="marslogo">
+
+                <button class="btn">
+                    <span>Offerta imzolash</span>
+                    <img src="./images/exit.png" alt="exit  ">
+                </button>
+            </div>
+
+            <div class="wrapper">
+                <h2 class="space">Spacega xush kelibsiz</h2>
+            </div>
+
+            <div class="div2">
+                <button class="div2_btn">O'quvchiman</button>
+                <button class="div2_btn2">Ota-onaman</button>
+            </div>
+
+            <form class="form">
+                <input type="number" id="userId" required placeholder="Modme Id or Phone number" class="inpu1">
+                <input type="number" id="userPassword" required placeholder="Password" class="input2">
+                <span class="span">QR code orqali kirish</span>
+                <button id="loginBtn" class="btn2" disabled>Подвердить</button>
+                <p id="error-message" style="color: red;"></p>
+            </form>
+                
+        </div>
+    </main>
+    
+    <script src="./app.js"></script>
+
+</body>
+</html>

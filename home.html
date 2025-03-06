@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./home.css">
+    <title></title>
+</head>
+<body>
+
+  
+        
+
+    <main>
+        <div class="container">
+            <ul class="main_list">
+                <li class="list_item">
+
+                    <img src="./images/Profile Picture.png" alt="">
+
+                    <p class="item_p1">Darajalar</p>
+
+                    
+                    <p class="name">
+                        <span id="name"></span>
+                        <span id="surname"></span>
+                    </p>
+
+                    <p class="user-group"> <span id="group"></span></p>
+
+                    <div class="user-info-box">
+                        <p class="coin"><img src="./images/coin.png" alt=""> <span id="coins"></span></p>
+                        <p class="coin"><img src="./images/hp.png" alt=""> <span id="hp"></span></p>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+        const user = JSON.parse(localStorage.getItem("user"));
+
+        if (!user) {
+            window.location.href = "index.html";
+        } else {
+            document.getElementById("name").textContent = user.name;
+            document.getElementById("surname").textContent = user.surname;
+            document.getElementById("coins").textContent = user.coin;
+            document.getElementById("hp").textContent = user.xp;
+            document.querySelector("#group").textContent = user.group;
+        }
+
+        function logout() {
+            localStorage.removeItem("user");
+            window.location.href = "index.html";
+        }
+
+        const ulBtn = document.querySelector(".ul_btn");
+        ulBtn.addEventListener("click", (e) => {
+            localStorage.clear();
+            window.location.href = "index.html"
+        })
+    </script>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
